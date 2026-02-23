@@ -1,0 +1,26 @@
+# Binaries
+mysh
+demos/fork/fork_demo
+demos/fd/dup2_demo
+demos/buffer/test_buffer
+demos/buffer/demo_buffer
+demos/buffer/progress_demo
+demos/pipe/pipe_fifo_demo
+demos/pipe/pipe_blocking_demo
+demos/pipe/pipe_eof_demo
+demos/pipe/pipe_interactive_demo
+
+# Test files
+*.txt
+!LEARNING.md
+!README.md
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
